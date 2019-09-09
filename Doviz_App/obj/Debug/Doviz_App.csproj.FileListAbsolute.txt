@@ -1,0 +1,14 @@
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\bin\Debug\Doviz_App.exe.config
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\bin\Debug\Doviz_App.exe
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\bin\Debug\Doviz_App.pdb
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.csprojAssemblyReference.cache
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.Form1.resources
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.Properties.Resources.resources
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.csproj.GenerateResource.cache
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.csproj.CoreCompileInputs.cache
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.exe
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.pdb
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.GirisEkrani.resources
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.Form2.resources
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.KasaDurumu.resources
+C:\Users\kaano\source\repos\Doviz_App\Doviz_App\obj\Debug\Doviz_App.GuncelKur.resources
