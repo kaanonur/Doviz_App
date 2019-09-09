@@ -90,7 +90,7 @@ namespace Doviz_App
             
             double kur, miktar, tutar;
 
-            if (txtKur.Text == "" || txtMiktar.Text == "" || txtTutar.Text == "")
+            if (txtKur.Text == "" || txtMiktar.Text == "")
             {
                 MessageBox.Show("Boş Alan Bırakmayınız", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
