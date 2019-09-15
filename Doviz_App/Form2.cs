@@ -58,8 +58,7 @@ namespace Doviz_App
 
         private void btnDolarAl_Click(object sender, EventArgs e)
         {
-            txtKur.Text = lblDolarAlis.Text;
-            lblSecilenParaBirimi.Text = "SeçilenPara";
+            
         }
 
         private void btnDolarSat_Click(object sender, EventArgs e)
@@ -70,8 +69,7 @@ namespace Doviz_App
 
         private void btnEuroAl_Click(object sender, EventArgs e)
         {
-            txtKur.Text = lblEuroAlis.Text;
-            lblSecilenParaBirimi.Text = "SeçilenPara";
+            
         }
 
         private void btnEuroSat_Click(object sender, EventArgs e)
@@ -89,7 +87,7 @@ namespace Doviz_App
         {
             double kur, miktar, tutar,musteridenAlinan,paraUstu;
 
-            if (txtKur.Text == "" || txtMiktar.Text == "" || txtMusteridenAlinan.Text == "" || txtParaUstu.Text == "" || txtTutar.Text == "")
+            if (txtKur.Text == "" || txtMiktar.Text == "" || txtMusteridenAlinan.Text == "")
             {
                 MessageBox.Show("Boş Alan Bırakmayınız", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -104,7 +102,20 @@ namespace Doviz_App
 
                 txtParaUstu.Text = paraUstu.ToString();
                 txtTutar.Text = tutar.ToString();
+
+                if (Convert.ToDouble(txtParaUstu.Text)<0)
+                {
+                    btnSatisYap.Hide();
+                    txtParaUstu.BackColor = Color.Red;
+                    MessageBox.Show("Müşteriden " + txtParaUstu.Text.ToString() + " ₺ daha alınacak!", "Eksik Para", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    btnSatisYap.Visible = true;
+                    txtParaUstu.BackColor = Color.LightGreen;
+                }
             }
+            
             
             
 
@@ -112,7 +123,7 @@ namespace Doviz_App
 
         private void btnSatisYap_Click(object sender, EventArgs e)
         {
-            if (txtKur.Text == "" || txtMiktar.Text == "" || txtMusteridenAlinan.Text == "" || txtParaUstu.Text==""||txtTutar.Text=="")
+            if (txtKur.Text == "" || txtMiktar.Text == "" || txtMusteridenAlinan.Text == "")
             {
                 MessageBox.Show("Boş Alan Bırakmayınız", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

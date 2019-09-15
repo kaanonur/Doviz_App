@@ -64,8 +64,7 @@ namespace Doviz_App
 
         private void btnDolarSat_Click(object sender, EventArgs e)
         {
-            txtKur.Text = lblDolarSatis.Text;
-            lblSecilenParaBirimi.Text = "SeçilenPara";
+            
         }
 
         private void btnEuroAl_Click(object sender, EventArgs e)
@@ -76,8 +75,7 @@ namespace Doviz_App
 
         private void btnEuroSat_Click(object sender, EventArgs e)
         {
-            txtKur.Text = lblEuroSatis.Text;
-            lblSecilenParaBirimi.Text = "SeçilenPara";
+            
         }
 
         private void txtKur_TextChanged(object sender, EventArgs e)
